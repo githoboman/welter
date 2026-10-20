@@ -1,0 +1,29 @@
+{
+  "mode": "live-recovery",
+  "protocolVersion": "post-fix-v2",
+  "deployment": {
+    "manifest": "evidence/post-fix-deployment-2026-09-10T02-43-34-178Z.json"
+  },
+  "tournamentId": "0x25e9ad04c547b1140898743d95646d580621b65ddd69859ea310ab7519e9f6a2",
+  "deadlines": {
+    "settlementDeadline": 1789009507,
+    "refundDeadline": 1789009552
+  },
+  "organizer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+  "trigger": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+  "funding": {
+    "amount": "1000000000000000000",
+    "vaultBalanceBeforeRecovery": "1000000000000000000"
+  },
+  "recovery": {
+    "hash": "0x75f5b8cf857c4f523e72e7b1ed091219a2c24a81c81fdf2b1090757bc629b50b",
+    "blockNumber": 5461258,
+    "gasUsed": "83216",
+    "state": 4,
+    "organizerBalanceIncrease": "1000000000000000000"
+  },
+  "settlementRejectedAfterRecovery": true,
+  "explorers": {
+    "recovery": "https://creditcoin-testnet.blockscout.com/tx/0x75f5b8cf857c4f523e72e7b1ed091219a2c24a81c81fdf2b1090757bc629b50b"
+  }
+}

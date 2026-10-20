@@ -1,0 +1,136 @@
+{
+  "runId": "local-anvil-1",
+  "mode": "local-verifier-double",
+  "chainId": 11155111,
+  "contracts": {
+    "registry": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "vault": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "asc": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+    "token": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+  },
+  "tournamentId": "0x81bba2c2e6af6414b89eba96f3292b88c691b66d9111ad244d80a45e30f6ee56",
+  "matchId": "0xb1d9fceefcf81cf0480b8bea63b699cfab22ccb0ac0775a2370ce76776a7861e",
+  "rulesHash": "0x65f4bc109d6d04f6fdb8051f9acca1aef4bf072889b8602698116a31880fbcae",
+  "winner": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "source": {
+    "hash": "0x9bd79770311fe86b5f1bddf94d37e41c1d75b69ee46b2c50975eb8917137704f",
+    "blockNumber": 15,
+    "gasUsed": "90467",
+    "decodedResult": 1,
+    "resultNonce": "95370738812648629245447476078339772815253651641261188992182142104434819856971"
+  },
+  "settlement": {
+    "hash": "0x97e84bdbcd073163653f8a92f0e39d0a454a11ceea701028991893306324850e",
+    "blockNumber": 16,
+    "gasUsed": "218431"
+  },
+  "payout": {
+    "hash": "0x2352e7a630b9079af171f66e565dcc8e2aa7bcba0bda99107e0ed5b1eb074825",
+    "blockNumber": 17,
+    "gasUsed": "63910"
+  },
+  "replay": {
+    "label": "same source transaction/business result",
+    "rejected": true,
+    "error": "transaction execution reverted"
+  },
+  "businessReplay": {
+    "label": "same business result with different source transaction",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongChain": {
+    "label": "wrong source chain key",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongSource": {
+    "label": "wrong source result contract",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongEvent": {
+    "label": "wrong event signature",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongTournament": {
+    "label": "wrong tournament ID",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongRules": {
+    "label": "wrong rules hash",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongWinner": {
+    "label": "wrong winner semantic payload",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "wrongNonce": {
+    "label": "zero result nonce",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "invalidFinalization": {
+    "label": "invalid finalization state",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "unfunded": {
+    "label": "unfunded tournament",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "unauthorizedSettlement": {
+    "label": "unauthorized settlement",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "doublePayout": {
+    "label": "double payout",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "draw": {
+    "matchId": "0xa2a20a3fcf26b9f298b38341ce29dfc907aeeb1c5311058fb41fa415c1ac99eb",
+    "winner": "0x0000000000000000000000000000000000000000"
+  },
+  "alreadyFinalized": {
+    "label": "already finalized source match",
+    "rejected": true,
+    "error": "transaction execution reverted"
+  },
+  "invalidReveal": {
+    "label": "invalid or missing reveal",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "timeout": {
+    "matchId": "0x13c1cc7bb51fc82a068f822c24557e25dc2c0d039f3460288152c2cffbdb1ac5",
+    "result": 3,
+    "winner": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+  },
+  "expired": {
+    "label": "expired result",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "unauthorizedRefund": {
+    "label": "unauthorized refund",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  },
+  "refunded": {
+    "hash": "0x8ec33909eb7d3442514ab045536c1b19dc421f25f5d2a915945fb1e2705740bb",
+    "blockNumber": 39,
+    "gasUsed": "49271"
+  },
+  "invalidProof": {
+    "label": "invalid proof",
+    "rejected": true,
+    "error": "execution reverted (unknown custom error)"
+  }
+}

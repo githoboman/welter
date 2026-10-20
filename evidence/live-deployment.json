@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-09-09T18:37:45.982Z",
+  "selectedDeployment": true,
+  "selectionNote": "This is the deployment set used by all three complete live E2E runs.",
+  "source": {
+    "chainId": 11155111,
+    "chainKey": 1,
+    "contract": "0x83Dfc7fbbd949441Cdc7f8b1eD2D916d059e764D",
+    "deployer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "deploymentTx": "0x896bdf997de833599a3f6aa7b88e8a74c031971d0e1fac22ffc1fd12485eb798",
+    "deploymentBlock": 11669740,
+    "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331"
+  },
+  "destination": {
+    "chainId": 102031,
+    "deployer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "token": {
+      "address": "0x95672dB433fBD38Dd8d70b93081DC1275EFF1b48",
+      "deploymentTx": "0x1067880532dd7fa31b40f9e200e5fc12cf53bf4ca34113954eadd4f9c67ddbb5",
+      "deploymentBlock": 5459223
+    },
+    "vault": {
+      "address": "0x802c21a0093a9516D2FD26406F3e16b0E0D1e6F2",
+      "deploymentTx": "0x6f569cfb61f8bb3a630db5c151e08ea6bb2a80c0a8d94c5a040bfba4f1486a0c",
+      "deploymentBlock": 5459224
+    },
+    "asc": {
+      "address": "0xAB51f91396f66FeED1d8b289643Ac58EF3590292",
+      "deploymentTx": "0xc9cc62181e93a1ef79f326ca7fa1410da40ed0f1172745d9c0029ab4d722d9dc",
+      "deploymentBlock": 5459225
+    },
+    "expectedBlockProver": "0x0000000000000000000000000000000000000FD2",
+    "expectedChainInfo": "0x0000000000000000000000000000000000000fd3"
+  },
+  "compiler": {
+    "solc": "0.8.28",
+    "optimizer": true,
+    "optimizerRuns": 200,
+    "viaIR": true,
+    "evmVersion": "shanghai",
+    "attestcoinContracts": "@gluwa/asc-contracts@0.2.1"
+  },
+  "supersededDeployments": [
+    {
+      "status": "superseded",
+      "reason": "An earlier duplicate deployment was created during an exploratory rerun. It is not referenced by the live evidence and must not be used.",
+      "addresses": "Not recorded in the selected manifest to avoid accidental use. Inspect historical deployment output only if forensic recovery is required."
+    }
+  ]
+}

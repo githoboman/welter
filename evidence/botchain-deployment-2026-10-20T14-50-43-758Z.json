@@ -1,0 +1,47 @@
+{
+  "protocolVersion": "botchain-v1",
+  "network": "BOT Chain Testnet",
+  "generatedAt": "2026-10-20T14:50:43.237Z",
+  "source": {
+    "chainId": 968,
+    "chainKey": 968,
+    "contract": "0x4E64c9a173440e1375460605b7959C3093370d78",
+    "deployer": "0x29108bAb564B53B19C5dde4D00048DB6C41e057C",
+    "finalizer": "0x29108bAb564B53B19C5dde4D00048DB6C41e057C",
+    "deploymentTx": "0x54998055a853a126c4c9a7f35a15e313bc50c127d542649ed95777db16907100",
+    "deploymentBlock": 27531122,
+    "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331"
+  },
+  "destination": {
+    "chainId": 968,
+    "deployer": "0x29108bAb564B53B19C5dde4D00048DB6C41e057C",
+    "settlementWorker": "0x29108bAb564B53B19C5dde4D00048DB6C41e057C",
+    "token": {
+      "address": "0x5A165Cb40fcF5E97ed7f9af37f45a19C1236f664",
+      "deploymentTx": "0x685baaa9a82a343635088a627a59e48b737cb29593e4f4f50a305e9f97526875",
+      "deploymentBlock": 27531134
+    },
+    "vault": {
+      "address": "0x6edC23FD53d5f861c460397337f505DDF88fCB32",
+      "deploymentTx": "0x63aab24b3a02d8bf62b993753278daf4953fce0aa1df6e58119ddfea7b30b045",
+      "deploymentBlock": 27531139
+    },
+    "settler": {
+      "address": "0x81f6611d25a7533885dd34bce10600aff0E2E4DE",
+      "deploymentTx": "0xd14c3d0a7a62ee4491e1f86be26782e27cb7c4a535381d89f75a92406911600d",
+      "deploymentBlock": 27531145
+    },
+    "asc": {
+      "address": "0x81f6611d25a7533885dd34bce10600aff0E2E4DE",
+      "deploymentTx": "0xd14c3d0a7a62ee4491e1f86be26782e27cb7c4a535381d89f75a92406911600d",
+      "deploymentBlock": 27531145
+    }
+  },
+  "explorers": {
+    "network": "https://scan.bohr.life",
+    "registry": "https://scan.bohr.life/address/0x4E64c9a173440e1375460605b7959C3093370d78",
+    "token": "https://scan.bohr.life/address/0x5A165Cb40fcF5E97ed7f9af37f45a19C1236f664",
+    "vault": "https://scan.bohr.life/address/0x6edC23FD53d5f861c460397337f505DDF88fCB32",
+    "settler": "https://scan.bohr.life/address/0x81f6611d25a7533885dd34bce10600aff0E2E4DE"
+  }
+}

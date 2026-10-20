@@ -1,0 +1,24 @@
+# Local credentials and operator configuration
+.env
+.env.*
+!.env.example
+
+# Generated compiler and local-run output
+node_modules/
+/lib/openzeppelin-contracts/build/
+artifacts/
+out/
+cache/
+coverage/
+.data/
+frontend/dist/
+frontend/evidence/
+frontend/public/
+
+# Local deployment-provider metadata
+.vercel/
+.render/
+
+# Local logs and temporary files
+*.log
+.DS_Store

@@ -1,0 +1,47 @@
+{
+  "name": "prizerail",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "forge test -vvv",
+    "build": "node scripts/frontend-build.mjs",
+    "build:contracts": "forge build",
+    "typecheck": "tsc --noEmit",
+    "compile:direct": "node scripts/compile.mjs",
+    "local:e2e": "node scripts/local-e2e.mjs",
+    "local:e2e:three": "node scripts/record-local-runs.mjs",
+    "verify:evidence": "node scripts/verify-evidence.mjs",
+    "verify:adapter": "tsx scripts/verify-adapter.ts",
+    "verify:demo": "node scripts/verify-demo.mjs",
+    "verify:proof": "tsx scripts/verify-proof.ts",
+    "verify:proof:test": "tsx scripts/verify-proof-classification.ts",
+    "verify:roles": "tsx scripts/verify-role-config.ts",
+    "verify:tamper": "node scripts/verify-demo-tamper.mjs",
+    "verify:recovery": "node scripts/verify-recovery.mjs",
+    "frontend:build": "node scripts/frontend-build.mjs",
+    "frontend:dev": "node scripts/frontend-dev.mjs",
+    "start:render": "node scripts/start-render.mjs",
+    "live:preflight": "tsx scripts/live-preflight.ts",
+    "live:deploy": "tsx scripts/live-deploy.ts",
+    "live:e2e": "tsx scripts/live-e2e.ts",
+    "live:complete": "tsx scripts/complete-live-run.ts",
+    "live:recovery": "tsx scripts/live-recovery.ts",
+    "attestcoin:probe": "tsx scripts/attestcoin-probe.ts",
+    "worker": "node --import tsx scripts/worker.ts",
+    "api": "node --import tsx scripts/api.ts",
+    "api:test": "node --import tsx test/api-http.test.ts",
+    "live:worker": "node --import tsx scripts/live-worker.ts",
+    "worker:evidence": "node --import tsx scripts/record-worker-evidence.ts",
+    "worker:test": "node --import tsx --test test/worker.test.ts"
+  },
+  "dependencies": {
+    "@gluwa/usc-sdk": "0.18.0",
+    "ethers": "^6.17.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "solc": "^0.8.28",
+    "tsx": "^4.22.0",
+    "typescript": "^5.9.0"
+  }
+}

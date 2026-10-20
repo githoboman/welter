@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "runId": "worker-live-28e7fb00",
+  "mode": "live-worker",
+  "dataMode": "LIVE",
+  "outcome": "PASS",
+  "deployment": {
+    "selector": "evidence/current-deployment.json",
+    "manifest": "evidence/post-fix-deployment-2026-09-10T02-43-34-178Z.json",
+    "protocolVersion": "post-fix-v2"
+  },
+  "source": {
+    "chainId": 11155111,
+    "chainKey": 1,
+    "registry": "0xddda859ac766e3eae59dc7b7b85465610af90a3f",
+    "transaction": {
+      "hash": "0x1ff6354200b553b10a8b7714a7837bd0ab8791a200d4c734369e998b643e36a6",
+      "status": 1,
+      "blockNumber": 11679976,
+      "blockHash": "0xc0108629cacf991e335da1d721963547fdc6e1b18c2b5a0ff3b6b881caeceaa5",
+      "gasUsed": "90467",
+      "blockTimestamp": 1789105644
+    },
+    "decoded": {
+      "tournamentId": "0x28e7fb00ec552d02eff74c7962a1c02c0c2dfbcf5acfbc3938bbf1d3f2d87070",
+      "matchId": "0xa56d54e3348952b47bdce67a053ffdeb30fe76e8ead46c0f3d7a12ce1e02a76f",
+      "playerOne": "0x0d6faee78dff4380e77d0e412f5cddd942673719",
+      "playerTwo": "0x96d6e03b89f6bf073cf8ab42b75e86f6ffea2082",
+      "winner": "0x0d6faee78dff4380e77d0e412f5cddd942673719",
+      "result": 1,
+      "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331",
+      "resultNonce": "81227808812261012484990568829867274496978882439978335291851789212868591695914",
+      "finalizationStatus": 0,
+      "sourceChainId": "11155111",
+      "finalizedAt": "1789105644",
+      "deadline": "1789107096"
+    },
+    "creation": {
+      "hash": "0x0dbf553d0ab496a481dec4c3237bd0e58648cdc74725d2b050d451524b50de40",
+      "status": 1,
+      "blockNumber": 11679961,
+      "blockHash": "0x8588d1b3661d555c6222746c109daf4208b1139a0e836859e5f1c1426f2a431a",
+      "gasUsed": "173176",
+      "blockTimestamp": 1789105464
+    }
+  },
+  "attestation": {
+    "proofIdentifier": "0x4d3245c17b37fdc1f3bd8cf96e9639de5f80a974d01c6e42703c143696c9abd9",
+    "headerNumber": 11679976,
+    "cached": true,
+    "verified": true,
+    "latencyMs": 20298,
+    "rawProofPersisted": false
+  },
+  "destination": {
+    "chainId": 102031,
+    "token": "0x9366e8298799a132d20f51021d6ef3a99d57817c",
+    "vault": "0x270b97d063668d9b2107d15e08a81af2318e7edc",
+    "asc": "0xd5226c2ec2c6958a9785c29dadbc28810f718ccf",
+    "amount": "1000000000000000000",
+    "funding": {
+      "created": {
+        "hash": "0x1c1a923a850f6062814b9c1b98d14c5f6981ea15b615c60179c0cab056d42912",
+        "status": 1,
+        "blockNumber": 5467635,
+        "blockHash": "0x12a801ba3b89f87374fe32967623b2388055854727f901eb332401e087cd4a62",
+        "gasUsed": "169830",
+        "blockTimestamp": 1789105365
+      },
+      "funded": {
+        "hash": "0x21982310109e8a88cf07dffd72f1b337ffa9ff352e8e8f646b3e6ff1d55551a3",
+        "status": 1,
+        "blockNumber": 5467639,
+        "blockHash": "0x2ea04b1e84d1cbc6e4bb3687eb93fa6c0c3618548d6209cf4f2ce20d2eedf1c2",
+        "gasUsed": "83216",
+        "blockTimestamp": 1789105425
+      }
+    },
+    "settlement": {
+      "hash": "0x6f71453dfe83b01e7b93317bdbc570b5ee6792693579891b0fd69e67b7964e59",
+      "status": 1,
+      "blockNumber": 5467691,
+      "blockHash": "0x2d918be2d1f38608c00a64a7b8b92c1edef2cd9d4575b568030eae52cf5014fc",
+      "gasUsed": "239642",
+      "blockTimestamp": 1789106205
+    },
+    "payout": {
+      "hash": "0x00c3c3141f28f495ba2f51765d37aed5b53873957a14874e6c1c8dc75bda042c",
+      "status": 1,
+      "blockNumber": 5467694,
+      "blockHash": "0x7b19c6a4f79a3524cc0f14f247ca382f36447fd3b9a348f1f70193acdefdaadf",
+      "gasUsed": "81592",
+      "blockTimestamp": 1789106250
+    },
+    "finalState": 3,
+    "winnerBalance": "4000000000000000000",
+    "events": {
+      "resultVerified": true,
+      "tournamentSettled": true,
+      "prizeClaimed": true
+    }
+  },
+  "worker": {
+    "jobId": "job-1b91454710bce0703caea266",
+    "dataDirectory": ".data/worker-2026-09-11T05-40-40-827Z",
+    "automaticClaim": true,
+    "finalState": "CLAIMED",
+    "attempts": 4,
+    "retries": 2,
+    "restart": {
+      "demonstrated": true,
+      "stateBeforeRestart": "AWAITING_ATTESTATION",
+      "proofAttempts": [
+        1,
+        2
+      ],
+      "distinctRuntimeCount": 3
+    },
+    "idempotency": {
+      "sourceIdentity": "11155111:0x1ff6354200b553b10a8b7714a7837bd0ab8791a200d4c734369e998b643e36a6",
+      "businessIdentity": "0x28e7fb00ec552d02eff74c7962a1c02c0c2dfbcf5acfbc3938bbf1d3f2d87070:81227808812261012484990568829867274496978882439978335291851789212868591695914",
+      "settlementTransactionCount": 1,
+      "payoutTransactionCount": 1
+    },
+    "lifecycle": [
+      {
+        "at": "2026-09-11T05:47:56.065Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": null,
+        "to": "MINED",
+        "reason": "source MatchFinalized discovered"
+      },
+      {
+        "at": "2026-09-11T05:48:09.403Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "MINED",
+        "to": "AWAITING_ATTESTATION",
+        "reason": "proof requested"
+      },
+      {
+        "at": "2026-09-11T05:56:24.826Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "AWAITING_ATTESTATION",
+        "to": "PROOF_READY",
+        "reason": "proof available"
+      },
+      {
+        "at": "2026-09-11T05:56:24.987Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PROOF_READY",
+        "to": "PROOF_PREFLIGHT_PASS",
+        "reason": "native proof preflight passed"
+      },
+      {
+        "at": "2026-09-11T05:56:33.300Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PROOF_PREFLIGHT_PASS",
+        "to": "SUBMITTING",
+        "reason": "settlement submission started"
+      },
+      {
+        "at": "2026-09-11T05:56:40.237Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SUBMITTING",
+        "to": "SETTLEMENT_PENDING",
+        "reason": "settlement transaction hash persisted"
+      },
+      {
+        "at": "2026-09-11T05:56:44.807Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_PENDING",
+        "to": "INFRASTRUCTURE_UNAVAILABLE",
+        "reason": "worker job processing failed: retry scheduled"
+      },
+      {
+        "at": "2026-09-11T05:57:02.571Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "INFRASTRUCTURE_UNAVAILABLE",
+        "to": "SETTLEMENT_COMPLETE",
+        "reason": "already settled policy"
+      },
+      {
+        "at": "2026-09-11T05:57:19.290Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_COMPLETE",
+        "to": "PAYOUT_PENDING",
+        "reason": "payout submission started"
+      },
+      {
+        "at": "2026-09-11T05:57:27.874Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PAYOUT_PENDING",
+        "to": "INFRASTRUCTURE_UNAVAILABLE",
+        "reason": "worker job processing failed: retry scheduled"
+      },
+      {
+        "at": "2026-09-11T05:57:29.854Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "INFRASTRUCTURE_UNAVAILABLE",
+        "to": "SETTLEMENT_COMPLETE",
+        "reason": "already settled policy"
+      },
+      {
+        "at": "2026-09-11T05:57:40.938Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_COMPLETE",
+        "to": "CLAIMED",
+        "reason": "settlement receipt reconciled"
+      }
+    ]
+  },
+  "replay": {
+    "rejected": true,
+    "outcome": "PASS",
+    "hash": "0x834c3e786fa5448e79d4ab4bedcb535d341f509b41d7e27af1bfb9f69eb9ab08",
+    "status": 0,
+    "blockNumber": 5471266,
+    "gasUsed": "153230",
+    "detectedAt": "2026-09-11T22:00:53.430Z"
+  },
+  "apiFinal": {
+    "schemaVersion": 1,
+    "dataMode": "LIVE",
+    "outcome": "PASS",
+    "jobId": "job-1b91454710bce0703caea266",
+    "productState": "CLAIMED",
+    "policyState": "CLAIMED",
+    "jobState": "CLAIMED",
+    "source": {
+      "chainId": 11155111,
+      "chainKey": 1,
+      "registry": "0xddda859ac766e3eae59dc7b7b85465610af90a3f",
+      "transactionHash": "0x1ff6354200b553b10a8b7714a7837bd0ab8791a200d4c734369e998b643e36a6",
+      "blockNumber": 11679976,
+      "blockHash": "0xc0108629cacf991e335da1d721963547fdc6e1b18c2b5a0ff3b6b881caeceaa5",
+      "gasUsed": "90467",
+      "blockTimestamp": "2026-09-11T05:47:24.000Z",
+      "receiptStatus": 1,
+      "eventSignature": "MatchFinalized(bytes32,bytes32,address,address,address,uint8,bytes32,uint256,uint8,uint64,uint64,uint64)",
+      "tournamentId": "0x28e7fb00ec552d02eff74c7962a1c02c0c2dfbcf5acfbc3938bbf1d3f2d87070",
+      "matchId": "0xa56d54e3348952b47bdce67a053ffdeb30fe76e8ead46c0f3d7a12ce1e02a76f",
+      "playerOne": "0x0d6faee78dff4380e77d0e412f5cddd942673719",
+      "playerTwo": "0x96d6e03b89f6bf073cf8ab42b75e86f6ffea2082",
+      "winner": "0x0d6faee78dff4380e77d0e412f5cddd942673719",
+      "result": 1,
+      "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331",
+      "resultNonce": "81227808812261012484990568829867274496978882439978335291851789212868591695914",
+      "finalizationStatus": 0,
+      "deadline": "1789107096",
+      "finalizedAt": "1789105644"
+    },
+    "attestcoin": {
+      "chainKey": 1,
+      "proofStatus": "PREFLIGHT_PASS",
+      "headerNumber": 11679976,
+      "digest": "0x4d3245c17b37fdc1f3bd8cf96e9639de5f80a974d01c6e42703c143696c9abd9",
+      "cached": true,
+      "latencyMs": 20298,
+      "preflight": "PASS",
+      "rawProof": null
+    },
+    "settlement": {
+      "transactionHash": "0x6f71453dfe83b01e7b93317bdbc570b5ee6792693579891b0fd69e67b7964e59",
+      "receiptStatus": 1,
+      "blockNumber": 5467691,
+      "gasUsed": "239642",
+      "blockTimestamp": "2026-09-11T05:56:45.000Z",
+      "resultVerified": true,
+      "tournamentSettled": true,
+      "vault": "0x270b97d063668d9b2107d15e08a81af2318e7edc",
+      "asc": "0xd5226c2ec2c6958a9785c29dadbc28810f718ccf"
+    },
+    "payout": {
+      "transactionHash": "0x00c3c3141f28f495ba2f51765d37aed5b53873957a14874e6c1c8dc75bda042c",
+      "receiptStatus": 1,
+      "blockNumber": 5467694,
+      "gasUsed": "81592",
+      "blockTimestamp": "2026-09-11T05:57:30.000Z",
+      "prizeClaimed": true,
+      "winner": "0x0d6faee78dff4380e77d0e412f5cddd942673719",
+      "amount": "1000000000000000000"
+    },
+    "replay": {
+      "rejected": true,
+      "outcome": "PASS",
+      "hash": "0x834c3e786fa5448e79d4ab4bedcb535d341f509b41d7e27af1bfb9f69eb9ab08",
+      "status": 0,
+      "blockNumber": 5471266,
+      "gasUsed": "153230",
+      "detectedAt": "2026-09-11T22:00:53.430Z"
+    },
+    "refundRecovery": null,
+    "evidenceReferences": [
+      "evidence/worker-live-2026-09-11T22-00-53-430Z.json"
+    ],
+    "explorerLinks": {
+      "source": "https://sepolia.etherscan.io/tx/0x1ff6354200b553b10a8b7714a7837bd0ab8791a200d4c734369e998b643e36a6",
+      "settlement": "https://creditcoin-testnet.blockscout.com/tx/0x6f71453dfe83b01e7b93317bdbc570b5ee6792693579891b0fd69e67b7964e59",
+      "payout": "https://creditcoin-testnet.blockscout.com/tx/0x00c3c3141f28f495ba2f51765d37aed5b53873957a14874e6c1c8dc75bda042c",
+      "replay": "https://creditcoin-testnet.blockscout.com/tx/0x834c3e786fa5448e79d4ab4bedcb535d341f509b41d7e27af1bfb9f69eb9ab08",
+      "recovery": null
+    },
+    "timestamps": {
+      "createdAt": "2026-09-11T05:47:56.065Z",
+      "updatedAt": "2026-09-11T22:00:53.430Z",
+      "nextRetryAt": null
+    },
+    "retry": {
+      "attempts": 4,
+      "retries": 2,
+      "nextRetryAt": null,
+      "leaseExpiresAt": null
+    },
+    "error": null,
+    "lifecycle": [
+      {
+        "at": "2026-09-11T05:47:56.065Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": null,
+        "to": "MINED",
+        "reason": "source MatchFinalized discovered"
+      },
+      {
+        "at": "2026-09-11T05:48:09.403Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "MINED",
+        "to": "AWAITING_ATTESTATION",
+        "reason": "proof requested"
+      },
+      {
+        "at": "2026-09-11T05:56:24.826Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "AWAITING_ATTESTATION",
+        "to": "PROOF_READY",
+        "reason": "proof available"
+      },
+      {
+        "at": "2026-09-11T05:56:24.987Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PROOF_READY",
+        "to": "PROOF_PREFLIGHT_PASS",
+        "reason": "native proof preflight passed"
+      },
+      {
+        "at": "2026-09-11T05:56:33.300Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PROOF_PREFLIGHT_PASS",
+        "to": "SUBMITTING",
+        "reason": "settlement submission started"
+      },
+      {
+        "at": "2026-09-11T05:56:40.237Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SUBMITTING",
+        "to": "SETTLEMENT_PENDING",
+        "reason": "settlement transaction hash persisted"
+      },
+      {
+        "at": "2026-09-11T05:56:44.807Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_PENDING",
+        "to": "INFRASTRUCTURE_UNAVAILABLE",
+        "reason": "worker job processing failed: retry scheduled"
+      },
+      {
+        "at": "2026-09-11T05:57:02.571Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "INFRASTRUCTURE_UNAVAILABLE",
+        "to": "SETTLEMENT_COMPLETE",
+        "reason": "already settled policy"
+      },
+      {
+        "at": "2026-09-11T05:57:19.290Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_COMPLETE",
+        "to": "PAYOUT_PENDING",
+        "reason": "payout submission started"
+      },
+      {
+        "at": "2026-09-11T05:57:27.874Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "PAYOUT_PENDING",
+        "to": "INFRASTRUCTURE_UNAVAILABLE",
+        "reason": "worker job processing failed: retry scheduled"
+      },
+      {
+        "at": "2026-09-11T05:57:29.854Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "INFRASTRUCTURE_UNAVAILABLE",
+        "to": "SETTLEMENT_COMPLETE",
+        "reason": "already settled policy"
+      },
+      {
+        "at": "2026-09-11T05:57:40.938Z",
+        "jobId": "job-1b91454710bce0703caea266",
+        "from": "SETTLEMENT_COMPLETE",
+        "to": "CLAIMED",
+        "reason": "settlement receipt reconciled"
+      }
+    ]
+  },
+  "timing": {
+    "sourceBlockTimestamp": 1789105644,
+    "settlementBlockTimestamp": 1789106205,
+    "sourceToSettlementSeconds": 561,
+    "recordedAt": "2026-09-11T22:00:53.430Z"
+  },
+  "explorers": {
+    "source": "https://sepolia.etherscan.io/tx/0x1ff6354200b553b10a8b7714a7837bd0ab8791a200d4c734369e998b643e36a6",
+    "settlement": "https://creditcoin-testnet.blockscout.com/tx/0x6f71453dfe83b01e7b93317bdbc570b5ee6792693579891b0fd69e67b7964e59",
+    "payout": "https://creditcoin-testnet.blockscout.com/tx/0x00c3c3141f28f495ba2f51765d37aed5b53873957a14874e6c1c8dc75bda042c",
+    "replay": "https://creditcoin-testnet.blockscout.com/tx/0x834c3e786fa5448e79d4ab4bedcb535d341f509b41d7e27af1bfb9f69eb9ab08"
+  },
+  "limitations": [
+    "testnet-only",
+    "single-host append-only journal",
+    "hosted prover and public RPC availability",
+    "role reuse between funded testnet wallets"
+  ]
+}

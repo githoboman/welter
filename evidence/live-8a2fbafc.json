@@ -1,0 +1,72 @@
+{
+  "runId": "live-8a2fbafc",
+  "mode": "live-attestcoin",
+  "source": {
+    "chainId": 11155111,
+    "chainKey": 1,
+    "registry": "0x83Dfc7fbbd949441Cdc7f8b1eD2D916d059e764D",
+    "transaction": {
+      "hash": "0x70f6b6c25dde720dc44db434180836121b088978216ea7bf3b421776134d31a6",
+      "blockNumber": 11669834,
+      "gasUsed": "90467"
+    },
+    "decoded": {
+      "tournamentId": "0x8a2fbafc62f34b7a5273a0dddf5951160dcffb6251122a33cb02a5e11d01b94d",
+      "matchId": "0xdc30ce7794da67c4392726aca0e9649bab525ea7c51765bd89de2e61ac1c02f9",
+      "playerOne": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+      "playerTwo": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+      "winner": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+      "result": 1,
+      "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331",
+      "resultNonce": "57753610563386852012038483135016901095519728277437377819298032114724257489385",
+      "finalizationStatus": 0,
+      "sourceChainId": 11155111,
+      "finalizedAt": 1788980160,
+      "deadline": 1788981816
+    }
+  },
+  "attestation": {
+    "proofIdentifier": "0x33e0c5796fe8c5f90a5bee566c5abc76bdd0c234973682c789b8d7cfd49c33ad",
+    "headerNumber": 11669834,
+    "cached": true,
+    "verified": true,
+    "proofRetrievalLatencyMs": 19958
+  },
+  "destination": {
+    "chainId": 102031,
+    "token": "0x95672dB433fBD38Dd8d70b93081DC1275EFF1b48",
+    "vault": "0x802c21a0093a9516D2FD26406F3e16b0E0D1e6F2",
+    "asc": "0xAB51f91396f66FeED1d8b289643Ac58EF3590292",
+    "settlement": {
+      "hash": "0x44a9dfa92bf3376dc539b18e44461f73fd8653ce3aa9d1f3c3d2b8f99b145e19",
+      "blockNumber": 5459375,
+      "gasUsed": "239444"
+    },
+    "payout": {
+      "hash": "0xb6647b056d8374e90323c29043be4215394aba9ff290e1fdbacf2a12dc62c890",
+      "blockNumber": 5459376,
+      "gasUsed": "78554"
+    },
+    "finalState": 3,
+    "winnerBalance": "2000000000000000000"
+  },
+  "replay": {
+    "rejected": true,
+    "hash": "0xa1eaadb22f68b880ec1ee635d74d3a964810a44a0865389ce810c5327dfcee25",
+    "blockNumber": 5459378,
+    "gasUsed": "144270",
+    "status": 0,
+    "error": "transaction execution reverted"
+  },
+  "timing": {
+    "sourceBlockTimestamp": 1788980160,
+    "settlementBlockTimestamp": 1788981315,
+    "sourceToSettlementSeconds": 1155
+  },
+  "explorers": {
+    "source": "https://sepolia.etherscan.io/tx/0x70f6b6c25dde720dc44db434180836121b088978216ea7bf3b421776134d31a6",
+    "settlement": "https://creditcoin-testnet.blockscout.com/tx/0x44a9dfa92bf3376dc539b18e44461f73fd8653ce3aa9d1f3c3d2b8f99b145e19",
+    "payout": "https://creditcoin-testnet.blockscout.com/tx/0xb6647b056d8374e90323c29043be4215394aba9ff290e1fdbacf2a12dc62c890",
+    "replay": "https://creditcoin-testnet.blockscout.com/tx/0xa1eaadb22f68b880ec1ee635d74d3a964810a44a0865389ce810c5327dfcee25"
+  }
+}

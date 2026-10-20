@@ -1,0 +1,44 @@
+{
+  "protocolVersion": "post-fix-v2",
+  "generatedAt": "2026-09-10T02:43:34.177Z",
+  "source": {
+    "chainId": 11155111,
+    "chainKey": 1,
+    "contract": "0xDdDA859AC766E3eaE59Dc7b7B85465610aF90a3f",
+    "deployer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "finalizer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "deploymentTx": "0xea4cef8642c75d68dae85dad8577d0dae825c6076137d355b13c674cc6994f45",
+    "deploymentBlock": 11672089,
+    "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331"
+  },
+  "destination": {
+    "chainId": 102031,
+    "deployer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "settlementWorker": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+    "token": {
+      "address": "0x9366e8298799A132D20F51021d6Ef3A99D57817C",
+      "deploymentTx": "0x9a0db326710145a98b40c8122fac704d615592b0df03e6c1e823b982253fc013",
+      "deploymentBlock": 5461165
+    },
+    "vault": {
+      "address": "0x270B97d063668d9B2107d15E08a81Af2318E7edC",
+      "deploymentTx": "0x64dc6063b5e5a6810d757776333ef17f8c1971a78077fb66db90d363d8ee8c99",
+      "deploymentBlock": 5461166
+    },
+    "asc": {
+      "address": "0xD5226c2eC2C6958A9785C29DADBc28810f718CCf",
+      "deploymentTx": "0x622364903b93c617ecb2578c24f4c8a5da7851bc167045c2cdb856f72b278323",
+      "deploymentBlock": 5461167
+    },
+    "expectedBlockProver": "0x0000000000000000000000000000000000000FD2",
+    "expectedChainInfo": "0x0000000000000000000000000000000000000fd3"
+  },
+  "compiler": {
+    "solc": "0.8.28",
+    "optimizer": true,
+    "optimizerRuns": 200,
+    "viaIR": true,
+    "evmVersion": "shanghai",
+    "attestcoinContracts": "@gluwa/asc-contracts@0.2.1"
+  }
+}

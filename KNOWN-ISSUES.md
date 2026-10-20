@@ -1,0 +1,20 @@
+# Known Issues and Limits
+
+- The RPS source finalizer is authorized to create matches, but `finalize` itself is permissionless once both reveals exist or the reveal deadline has passed. Commit/reveal makes the move outcome deterministic, but it does not make match selection or off-chain conduct trustless.
+- Post-fix source bytecode requires both player commitments before either reveal. Historical deployment bytecode does not contain this correction and remains documented only as historical evidence.
+- `PrizeVault.createTournament` accepts any nonzero source registry. `PrizeRailASC` checks the proof emitter against the policy's caller-supplied registry, but there is no global deployed-registry allowlist. The selected worker/API admission boundary requires the selected deployed registry; the contract limitation remains for direct callers.
+- Normal refund remains organizer-only for `settlementDeadline < timestamp <= refundDeadline`. Post-fix `recoverExpired` is permissionless after `refundDeadline`, always pays the immutable organizer, and terminates in `REFUNDED`.
+- Live scripts now model roles explicitly and require explicit reuse declarations. The post-fix live run still reused two funded wallets, so independently funded/separated live custody remains not demonstrated.
+- The prize token is a project-owned CC3 test token with no monetary value.
+- Hosted Attestcoin proof construction is asynchronous. The three observed latencies were approximately 12.6 seconds, 20.0 seconds, and 539.9 seconds.
+- The third live run initially produced a replay rejection through preflight estimation; a follow-up transaction with an explicit gas limit was mined with status `0` and is recorded as the canonical replay evidence.
+- The standard no-key verifier independently checks public receipts/events, bytecode, immutable bindings, and policy state, but treats Attestcoin preflight/digest as recorded evidence. Optional `npm run verify:proof -- <evidence>` retrieves proof bytes and reruns native preflight read-only; hosted-prover unavailability is `UNKNOWN`.
+- Targeted source/vault regression tests cover reveal ordering, permissionless guarded finalization, deadlines, refund/recovery terminal edges, and funds conservation. No independent production audit is claimed.
+- A local HTTP read API and append-only durable worker are implemented and focused-tested; the preserved worker artifact `evidence/worker-live-2026-09-11T22-00-53-430Z.json` is historical pre-hardening evidence. They are not yet hosted and use a single-host file journal rather than a production relational database.
+- The journal schema remains version `1`, but pre-hardening v1 records are not necessarily compatible with the stricter immutable-hash checks. Journals containing a mutable or cleared assigned settlement/payout hash (including the historical worker journal) fail closed on restart. No migration tool exists; preserve those journals read-only and use a fresh data directory, or perform a separately reviewed migration reconstructed from on-chain evidence. Current-code restart/reconciliation closure is recorded in `evidence/worker-live-v2-2026-09-12T22-53-43-237Z-2056792-055a2cae90a0.json`.
+- The worker's reorg handling is a bounded rewind, not a canonical-chain rollback engine. A reorg deeper than `WORKER_REORG_REWIND` requires operator intervention/rebuild.
+- The API has no mutation routes or authentication because discovery is watcher-driven. Browser organizer create/approve/fund
+  transactions are implemented client-side, but real extension execution remains untested; hosted deployment, production
+  custody, audit, README/submission package, deck, video, and Attestcoin writability remain unimplemented.
+- The requested Daybreak reference pages and repository were not reachable from this environment because DNS resolution failed; `docs/DESIGN.md` records the limitation and keeps the implementation semantically independent.
+- The workspace has no usable Git metadata. Evidence and transaction hashes, rather than commits, are the provenance artifacts for this handoff.

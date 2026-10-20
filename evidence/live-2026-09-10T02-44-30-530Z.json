@@ -1,0 +1,136 @@
+{
+  "runId": "live-f99b1968",
+  "mode": "live-attestcoin",
+  "deployment": {
+    "manifest": "evidence/post-fix-deployment-2026-09-10T02-43-34-178Z.json",
+    "protocolVersion": "post-fix-v2"
+  },
+  "source": {
+    "chainId": 11155111,
+    "chainKey": 1,
+    "registry": "0xDdDA859AC766E3eaE59Dc7b7B85465610aF90a3f",
+    "transaction": {
+      "hash": "0x9629ae21376cfad615c49c65b2fab76a7522ca4170da0d6edcbf25369bff42a6",
+      "blockNumber": 11672111,
+      "gasUsed": "90467"
+    },
+    "decoded": {
+      "tournamentId": "0xf99b196892734e5e44c637d4a3d8ac8a2fe4311e121070531c052c4be650d234",
+      "matchId": "0x6f318a77e78a9c44ec461b13bee8bff84e12f27c10abf89b13f422888268e2b3",
+      "playerOne": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+      "playerTwo": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+      "winner": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+      "result": 1,
+      "rulesHash": "0x7564123213f3cffdfa6237a0067717f6f1a13dc65a0b69e6960cbe5ca8c94331",
+      "resultNonce": "9531734795137199055327171594722715067920331571144195033021358664409145730768",
+      "finalizationStatus": 0,
+      "sourceChainId": "11155111",
+      "finalizedAt": "1789008432",
+      "deadline": "1789010064"
+    },
+    "steps": [
+      {
+        "hash": "0xbeffac634ea7309ef0860293ee58132cbb910505b6562123dee157abe031380e",
+        "blockNumber": 11672104,
+        "gasUsed": "173188"
+      },
+      {
+        "hash": "0xa366017aeb3a11ebc4368db3b0a5e73b56eeb11586449e5884e31612116e26f4",
+        "blockNumber": 11672106,
+        "gasUsed": "54654"
+      },
+      {
+        "hash": "0x34290ab015e0ed3aaa6e0e90db8b307a4e92cc714e26439b05015c20caa111b9",
+        "blockNumber": 11672107,
+        "gasUsed": "56817"
+      },
+      {
+        "hash": "0x085185bf0ecc06cd6b0cd2e7594faaba88b1552ec710e421e6a50256cbd2e2af",
+        "blockNumber": 11672108,
+        "gasUsed": "58273"
+      },
+      {
+        "hash": "0xb76032c82ad2efe4fe4a6f4afbbfe88c5fc25170c32ee9f7ea2dabf87e7c2c9d",
+        "blockNumber": 11672110,
+        "gasUsed": "43356"
+      }
+    ]
+  },
+  "destination": {
+    "chainId": 102031,
+    "amount": "1000000000000000000",
+    "token": "0x9366e8298799A132D20F51021d6Ef3A99D57817C",
+    "vault": "0x270B97d063668d9B2107d15E08a81Af2318E7edC",
+    "asc": "0xD5226c2eC2C6958A9785C29DADBc28810f718CCf",
+    "funding": [
+      {
+        "hash": "0x9d6c4a4429215800cb37ba25c85d0fdfcfb33e41c5e34bb313b7c531a701ff75",
+        "blockNumber": 5461172,
+        "gasUsed": "44163"
+      },
+      {
+        "hash": "0xc278e1e7ada5169d3744a962cadc4ba461cba535185ab4acdd134d7acd658299",
+        "blockNumber": 5461173,
+        "gasUsed": "169842"
+      },
+      {
+        "hash": "0x06148f0569d38bcf85edef72b323d43eb355f3226a38c1f7941f26df18bdf44e",
+        "blockNumber": 5461174,
+        "gasUsed": "44124"
+      },
+      {
+        "hash": "0x85f1a578e6dee2cda7f32cbab71071cbc5e7a998c29489c95b9f59d6580961f8",
+        "blockNumber": 5461175,
+        "gasUsed": "83216"
+      }
+    ],
+    "settlement": {
+      "hash": "0x30b549ed395700eefbb69ea924b767c15639d12378ff000c69cf1c66ca0a9119",
+      "blockNumber": 5461221,
+      "gasUsed": "243163"
+    },
+    "payout": {
+      "hash": "0xf0b5dda8f92005386313576a3ff58628baf856888b4f7e62f4b60474021818a3",
+      "blockNumber": 5461222,
+      "gasUsed": "81592"
+    },
+    "finalState": 3,
+    "winnerBalance": "1000000000000000000"
+  },
+  "attestation": {
+    "proofIdentifier": "0x189b874912e7d21ae0e166e0a17480f23af57ce2909ffec5cef0a0eaf86ca596",
+    "proofCached": true,
+    "headerNumber": 11672111,
+    "verified": true,
+    "latencyMs": 576982
+  },
+  "replay": {
+    "rejected": true,
+    "hash": "0x02b5d771147076537c9d985ff2c2f225988976ab12c7cab61f08872abe0b5d7b",
+    "blockNumber": 5461223,
+    "gasUsed": "146510",
+    "status": 0,
+    "error": "transaction execution reverted"
+  },
+  "timing": {
+    "sourceBlockTimestamp": 1789008432,
+    "settlementBlockTimestamp": 1789009020,
+    "sourceToSettlementSeconds": 588
+  },
+  "explorers": {
+    "source": "https://sepolia.etherscan.io/tx/0x9629ae21376cfad615c49c65b2fab76a7522ca4170da0d6edcbf25369bff42a6",
+    "settlement": "https://creditcoin-testnet.blockscout.com/tx/0x30b549ed395700eefbb69ea924b767c15639d12378ff000c69cf1c66ca0a9119",
+    "payout": "https://creditcoin-testnet.blockscout.com/tx/0xf0b5dda8f92005386313576a3ff58628baf856888b4f7e62f4b60474021818a3",
+    "replay": "https://creditcoin-testnet.blockscout.com/tx/0x02b5d771147076537c9d985ff2c2f225988976ab12c7cab61f08872abe0b5d7b"
+  },
+  "wallets": {
+    "deploymentSigner": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "finalizer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "organizer": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "playerOne": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "playerTwo": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+    "winner": "0x0d6FAee78dFF4380E77D0e412F5Cddd942673719",
+    "worker": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082",
+    "payoutTrigger": "0x96d6E03B89f6bf073CF8ab42B75e86f6fFEA2082"
+  }
+}
