@@ -1,0 +1,122 @@
+{
+  "deployer": "0x29108bAb564B53B19C5dde4D00048DB6C41e057C",
+  "txRecords": [
+    {
+      "step": 1,
+      "action": "Fund Player Two Gas",
+      "txHash": "0x1b29c003b0ef4dbfaeaddf656ffffa11865d1603578662635294aafa98397750",
+      "blockNumber": 27534910,
+      "gasUsed": "21000",
+      "explorerUrl": "https://scan.bohr.life/tx/0x1b29c003b0ef4dbfaeaddf656ffffa11865d1603578662635294aafa98397750",
+      "description": "Transferred 0.05 BOT to player 2 (0xe5ec1999C53474cDfD4828F85B1e47e7F0A67F04) for on-chain tournament gameplay interactions."
+    },
+    {
+      "step": 2,
+      "action": "Mint PRIZE Tokens",
+      "txHash": "0x1341b35d7e9f9607ac18f25ab3bc73552681171d665c315e2c149c51dfcbd758",
+      "blockNumber": 27534919,
+      "gasUsed": "44163",
+      "explorerUrl": "https://scan.bohr.life/tx/0x1341b35d7e9f9607ac18f25ab3bc73552681171d665c315e2c149c51dfcbd758",
+      "description": "Minted 1,000 PRIZE test tokens to tournament organizer (0x29108bAb564B53B19C5dde4D00048DB6C41e057C)."
+    },
+    {
+      "step": 3,
+      "action": "Approve PrizeVault Allowance",
+      "txHash": "0xe13b583457c1584618367cc7e7dac1e6e17801cfed6f2652855b27f2ef1062e6",
+      "blockNumber": 27534925,
+      "gasUsed": "44136",
+      "explorerUrl": "https://scan.bohr.life/tx/0xe13b583457c1584618367cc7e7dac1e6e17801cfed6f2652855b27f2ef1062e6",
+      "description": "Approved PrizeVault (0x6edC23FD53d5f861c460397337f505DDF88fCB32) to pull 100 PRIZE for tournament prize escrow."
+    },
+    {
+      "step": 4,
+      "action": "Create Tournament Prize Policy",
+      "txHash": "0x9b931c83eec77fd3c17afb7690f3e42186323731f5301f9c65fc349a0528fbd3",
+      "blockNumber": 27534930,
+      "gasUsed": "169854",
+      "explorerUrl": "https://scan.bohr.life/tx/0x9b931c83eec77fd3c17afb7690f3e42186323731f5301f9c65fc349a0528fbd3",
+      "description": "Registered immutable prize policy for tournament 0x1e52c45a7269b9dd... with 100 PRIZE purse."
+    },
+    {
+      "step": 5,
+      "action": "Fund PrizeVault Escrow",
+      "txHash": "0xb568eafabbfa7eef86c13cbec73d687162e03b693114cdbedbdd2e13c5b19eae",
+      "blockNumber": 27534935,
+      "gasUsed": "86115",
+      "explorerUrl": "https://scan.bohr.life/tx/0xb568eafabbfa7eef86c13cbec73d687162e03b693114cdbedbdd2e13c5b19eae",
+      "description": "Funded 100 PRIZE tokens into non-custodial PrizeVault escrow contract."
+    },
+    {
+      "step": 6,
+      "action": "Create Match in Registry",
+      "txHash": "0x861799e135015cd67a94fdf64706870d98d4b564c4ddb792dce29c0023000cb5",
+      "blockNumber": 27534941,
+      "gasUsed": "173176",
+      "explorerUrl": "https://scan.bohr.life/tx/0x861799e135015cd67a94fdf64706870d98d4b564c4ddb792dce29c0023000cb5",
+      "description": "Initialized match 0x2c5f6e3953941aac... between Player 1 (deployer) and Player 2."
+    },
+    {
+      "step": 7,
+      "action": "Player 1 Commit Move",
+      "txHash": "0x4a36cd4896993fec9d1af6331a50ee7d566c661af629358adcad8a4b84bd31bf",
+      "blockNumber": 27534946,
+      "gasUsed": "54654",
+      "explorerUrl": "https://scan.bohr.life/tx/0x4a36cd4896993fec9d1af6331a50ee7d566c661af629358adcad8a4b84bd31bf",
+      "description": "Player 1 submitted cryptographic move commitment."
+    },
+    {
+      "step": 8,
+      "action": "Player 2 Commit Move",
+      "txHash": "0x61601d7a6a5a8abfb15b99d545e42482a2aed57abe80e9ea1c1429ae457a5555",
+      "blockNumber": 27534952,
+      "gasUsed": "56805",
+      "explorerUrl": "https://scan.bohr.life/tx/0x61601d7a6a5a8abfb15b99d545e42482a2aed57abe80e9ea1c1429ae457a5555",
+      "description": "Player 2 submitted cryptographic move commitment."
+    },
+    {
+      "step": 9,
+      "action": "Player 1 Reveal Move",
+      "txHash": "0x2db75073a94e18fed0602f18070d631489f373cb0e9bc1b1f11110fc07c5025b",
+      "blockNumber": 27534964,
+      "gasUsed": "58273",
+      "explorerUrl": "https://scan.bohr.life/tx/0x2db75073a94e18fed0602f18070d631489f373cb0e9bc1b1f11110fc07c5025b",
+      "description": "Player 1 revealed move: Rock (Choice 1)."
+    },
+    {
+      "step": 10,
+      "action": "Player 2 Reveal Move",
+      "txHash": "0x337493486631b7fd841ebc6a50ba0aac58a1a95f48835b675fdcd4f2741652e1",
+      "blockNumber": 27534970,
+      "gasUsed": "43356",
+      "explorerUrl": "https://scan.bohr.life/tx/0x337493486631b7fd841ebc6a50ba0aac58a1a95f48835b675fdcd4f2741652e1",
+      "description": "Player 2 revealed move: Scissors (Choice 3)."
+    },
+    {
+      "step": 11,
+      "action": "Finalize Match Outcome",
+      "txHash": "0xcb02a05a932c3ba69640d4ab39e04ae3049bfb517a02c8895ebf8ed6927fea4d",
+      "blockNumber": 27534976,
+      "gasUsed": "90467",
+      "explorerUrl": "https://scan.bohr.life/tx/0xcb02a05a932c3ba69640d4ab39e04ae3049bfb517a02c8895ebf8ed6927fea4d",
+      "description": "Evaluated moves deterministically on-chain: Rock beats Scissors. Player 1 declared winner."
+    },
+    {
+      "step": 12,
+      "action": "Settle Prize on BotChainSettler",
+      "txHash": "0x38583e9b31c93ea08158b606128194df5629bf498b8f03acea04d624a69553fb",
+      "blockNumber": 27534982,
+      "gasUsed": "167256",
+      "explorerUrl": "https://scan.bohr.life/tx/0x38583e9b31c93ea08158b606128194df5629bf498b8f03acea04d624a69553fb",
+      "description": "BotChainSettler verified on-chain result registry and unlocked PrizeVault policy to CLAIMABLE."
+    },
+    {
+      "step": 13,
+      "action": "Claim Prize to Winner",
+      "txHash": "0xb8abb1f9ca6d60af70be84c4c7a73ea02af892c13fb81fccf696a22894e3d32d",
+      "blockNumber": 27534988,
+      "gasUsed": "46844",
+      "explorerUrl": "https://scan.bohr.life/tx/0xb8abb1f9ca6d60af70be84c4c7a73ea02af892c13fb81fccf696a22894e3d32d",
+      "description": "Permissionless claim triggered: 100 PRIZE automatically disbursed from PrizeVault to winner (0x29108bAb564B53B19C5dde4D00048DB6C41e057C)."
+    }
+  ]
+}
